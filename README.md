@@ -24,6 +24,7 @@ The core goal of this project is not gameplay, but **pushing performance limits*
 - GPU instancing with **indirect draw calls**
 - Supports **hundreds of thousands of instances**
 - Custom vegetation rendering system
+- LOD based terrain detail
 
 ### 👁️ Dynamic Occlusion Culling
 - Per-instance vegetation culling
