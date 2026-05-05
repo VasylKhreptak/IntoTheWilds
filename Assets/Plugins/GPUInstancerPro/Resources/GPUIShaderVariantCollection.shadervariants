@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GPUIShaderVariantCollection
+  m_Shaders:
+  - first: {fileID: -6465566751694194690, guid: 48fe816c3f1833d4d8c09289fe3981cb, type: 3}
+    second:
+      variants:
+      - keywords: LOD_FADE_CROSSFADE _DISABLE_SSR _DISABLE_SSR_TRANSPARENT
+        passType: 0
+      - keywords: LOD_FADE_CROSSFADE _DISABLE_SSR_TRANSPARENT
+        passType: 0
+  - first: {fileID: 4800000, guid: 8478781d80234fa29651593b02782b9d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 303b28effad14e94871a6cfad2db6615, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 48298ef32000a6746b94355a63beae16, type: 3}
+    second:
+      variants:
+      - keywords: LOD_FADE_CROSSFADE TVE_ALPHA_CLIP _DISABLE_DECALS _DISABLE_SSR
+        passType: 0
+      - keywords: TVE_ALPHA_CLIP _DISABLE_DECALS _DISABLE_SSR
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: dfa3b96612ed4df4a97b7fd06217ba23, type: 3}
+    second:
+      variants:
+      - keywords: _ALPHATEST_ON _DISABLE_DECALS _DISABLE_SSR _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MATERIAL_FEATURE_TRANSMISSION
+        passType: 0
+  - first: {fileID: 4800000, guid: b57b35753899ff443b980eeb0c41560a, type: 3}
+    second:
+      variants:
+      - keywords: LOD_FADE_CROSSFADE _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAP
+          _NORMALMAP_TANGENT_SPACE
+        passType: 0
+  - first: {fileID: 4800000, guid: b29f279924c0d0046a34a82512e8ca02, type: 3}
+    second:
+      variants:
+      - keywords: LOD_FADE_CROSSFADE TVE_DETAIL _DISABLE_DECALS _DISABLE_SSR
+        passType: 0
+      - keywords: LOD_FADE_CROSSFADE _DISABLE_DECALS _DISABLE_SSR
+        passType: 0
+  - first: {fileID: 4800000, guid: 8a1f2f3d73bfef74e87938d05c6a6f37, type: 3}
+    second:
+      variants:
+      - keywords: LOD_FADE_CROSSFADE
+        passType: 0
+  - first: {fileID: 4800000, guid: 3fd451a5dbc44df4ea6a485bb52c3b56, type: 3}
+    second:
+      variants:
+      - keywords: LOD_FADE_CROSSFADE
+        passType: 0
+  - first: {fileID: 4800000, guid: f832c190beb38f14ea977c1072d64ef4, type: 3}
+    second:
+      variants:
+      - keywords: LOD_FADE_CROSSFADE
+        passType: 0
